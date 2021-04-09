@@ -26,3 +26,13 @@
 2. เลือกคำสั่ง **Add** > **Add Files...**
 3. เลือกไฟล์ขนาดที่เหมาะสมกับโฟลเดอร์
 4. เลือก **Copy the file to the directory**
+
+### การกำหนดชื่อไฟล์ไอคอนให้ให้แอพ
+
+ถ้ามีการเปลี่ยนชื่อไฟล์รูปภาพจาก `ic_launcher` เป็นชื่ออื่น สามารถกำหนดใหม่ได้
+
+1. คลิกขวาที่โปรเจค ใน Solution Pad
+2. เลือกแสดง Options
+3. จากเมนูเลือก Android Application > Application icon แล้วกำหนดชื่อใหม่
+
+<img width="610" alt="2021-04-09_21-07-17" src="https://user-images.githubusercontent.com/85179/114193445-bb27b900-9978-11eb-8c07-f640ed513db6.png">
