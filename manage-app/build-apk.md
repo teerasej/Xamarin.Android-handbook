@@ -3,6 +3,7 @@
 # การสร้างไฟล์ APK 
 
 - หากต้องการติดตั้งแอพโดยตรงบนเครื่องเป้าหมาย จากการรันไฟล์ติดตั้ง ควรเลือกวิธีนี้ 
+- หากต้องการนำไฟล์ขึ้น Play Store ให้ดำเนินการ [archive โปรเจค](#1-การ-archive-โปรเจค)ให้เรียบร้อยก่อน จากนั้นค่อยเริ่ม[ขั้นตอนการสร้างไฟล์สำหรับ Play Store (AAB)](build-aab.md)
 
 ## กำหนดการตั้งค่าบนเครื่องเป้าหมาย
 
@@ -11,7 +12,7 @@
 
 ![settings](https://user-images.githubusercontent.com/85179/114735886-cf502980-9d6f-11eb-9b6d-5b4cf7cd9e5b.png)
 
-## การ release โปรเจค (Distribution)
+## การไฟล์ APK (Ad hoc Distribution)
 
 - [การเช็คค่าต่างๆ ก่อนการ distribute ตัวแอพ](before-build.md)
 
@@ -43,6 +44,7 @@
 - แอพที่จะเอาไปใช้งานได้ ต้องมีการ sign แอพด้วย (ลองนึกถึงภาพการประทับตรา หรือเซ็นชื่อเราบนพัศดุที่จะส่งทางไปรษณีย์) 
 - การ sign แอพ จะทำโดยใช้ไฟล์ Certificate ซึ่งเราสามารถสร้างขึ้นเองได้
 
+หากต้องการสร้างไฟล์ สำหรับ Play Store ให้ทำตาม[ขั้นตอนการสร้างไฟล์สำหรับ Play Store (AAB)](build-aab.md)
 ![01-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748919-94a0be00-9d7c-11eb-9880-7ae702270680.png)
 
 ![02-ad-hoc-signing-identity-vs-sml](https://user-images.githubusercontent.com/85179/114748939-99657200-9d7c-11eb-966d-b19de6aa1ade.png)
