@@ -19,7 +19,8 @@
 จะแบ่งเป็น 2 ขั้นตอน
 
 1. การ archive โปรเจค
-2. การ sign แอพ
+2. การสร้างไฟล์ Key Store
+3. การ sign แอพ
 
 ### 1. การ archive โปรเจค
 
@@ -66,24 +67,50 @@
 
 ![14-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748763-6c18c400-9d7c-11eb-8e5b-7da4fd4d93a6.png)
 
-### 2. การ sign แอพ
+### 2. การสร้างไฟล์ Key Store
 
 - แอพที่จะเอาไปใช้งานได้ ต้องมีการ sign แอพด้วย (ลองนึกถึงภาพการประทับตรา หรือเซ็นชื่อเราบนพัศดุที่จะส่งทางไปรษณีย์) 
-- การ sign แอพ จะทำโดยใช้ไฟล์ Certificate ซึ่งเราสามารถสร้างขึ้นเองได้
+- การ sign แอพ จะทำโดยใช้ไฟล์ Certificate หรืออีกชื่อคือ Key Store ซึ่งเราสามารถสร้างขึ้นเองได้
 
-หากต้องการสร้างไฟล์ สำหรับ Play Store ให้ทำตาม[ขั้นตอนการสร้างไฟล์สำหรับ Play Store (AAB)](build-aab.md)
+> หากต้องการสร้างไฟล์ สำหรับ Play Store ให้ทำตาม[ขั้นตอนการสร้างไฟล์สำหรับ Play Store (AAB)](build-aab.md)
+
+ในที่นี้เราจะเลือกแบบ Ad Hoc
 
 ![01-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748919-94a0be00-9d7c-11eb-9880-7ae702270680.png)
 
+จะปรากฎส่วน Signin Identity ขึ้นมา ถ้าเรามีไฟล์ Key Store Certificate เดิมสามารถกดปุ่ม import ได้ 
+
 ![02-ad-hoc-signing-identity-vs-sml](https://user-images.githubusercontent.com/85179/114748939-99657200-9d7c-11eb-966d-b19de6aa1ade.png)
+
+ถ้ายังไม่มีกดปุ่ม + ได้เลย จะเข้าสู่ขั้นตอนการกรอกข้อมูลสำหรับการสร้าง Key store
 
 ![03-create-android-key-store-vs-sml](https://user-images.githubusercontent.com/85179/114748944-9c606280-9d7c-11eb-91bb-abc771f44be1.png)
 
 
+เสร็จแล้ว Visual Studio จะสร้างไฟล์ Key store ขึ้นมาให้ และเก็บในโฟลเดอร์ด้านล่าง
+
+```
+# โดยปกติโฟลเดอร์ AppData จะถูกซ่อนไว้ อย่าลืมไปเปิดตัวเลือกแสดงไฟล์และโฟลเดอร์ที่ซ่อนไว้ใน File Explorer
+
+C:\Users\USERNAME\AppData\Local\Xamarin\Mono for Android\Keystore\ALIAS\ALIAS.keystore
+```
+
+### 3. การ sign app
+
+ส่วนไฟล์ Key Store ที่สร้างเสร็จแล้ว หรือที่สร้างไว้ใช้งานก่อนหน้านี้ จะอยู่ในรายการด้านล่าง
+
 ![05-save-as-vs-sml](https://user-images.githubusercontent.com/85179/114748962-a1251680-9d7c-11eb-9ca4-5cb9ed71ff15.png)
+
+
+เราสามารถกดปุ่ม Save as เพื่อระบุชื่อและที่อยู่ของไฟล์ APK ที่ถูกสร้างขึ้นมา
 
 ![06-save-as-dialog-vs-sml](https://user-images.githubusercontent.com/85179/114748976-a5e9ca80-9d7c-11eb-931c-737e656f553b.png)
 
+หลังจากกดปุ่ม Save แล้วจะมีการให้กรอกรหัสของไฟล์ Key Store
+
 ![07-signing-password-vs-sml](https://user-images.githubusercontent.com/85179/114748998-ab471500-9d7c-11eb-8655-19b0eaf76867.png)
+
+ถ้าการทำงานเสร็จสมบูรณ์ จะสามารถเลือกเปิดไปที่ไฟล์ APK ที่ถูกสร้างไว้ได้
+
 ![08-open-distribution-sml](https://user-images.githubusercontent.com/85179/114749083-c0bc3f00-9d7c-11eb-962c-8fb07cf540e6.png)
 
