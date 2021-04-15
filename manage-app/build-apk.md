@@ -62,7 +62,7 @@
 6. จะขึ้นหน้าจอให้เลือกประเภทการ distibute 
 
    - แบบ Ad hoc จะเป็นการสร้างไฟล์ APK
-   - แบบ Google Play จะเป็นการสร้างไฟล์ AAB และอัพขึ้น Store
+   - แบบ Google Play จะเป็นการสร้างไฟล์ AAB และอัพขึ้น Store [ดูต่อได้ที่นี่](build-aab.md)
 
 ![14-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748763-6c18c400-9d7c-11eb-8e5b-7da4fd4d93a6.png)
 
