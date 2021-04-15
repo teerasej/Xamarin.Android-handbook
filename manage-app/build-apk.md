@@ -23,19 +23,46 @@
 
 ### 1. การ archive โปรเจค
 
+- ก่อนจะสร้างไฟล์ APK หรือ AAB เราจำเป็นต้องสั่ง Archive โปรเจคเสียก่อน เพื่อให้โปรเจคอยู่ในสภาพที่เตรียมการทุกอย่างพร้อมสำหรับการ distribution
+- ลองนึกภาพเราทำกับข้าวเสร็จแล้ว จะส่งให้ลูกค้า ต้องจัดแจงเตรียมลงกล่อง เช็คความเรียบร้อย 
+
+1. เริ่มจาก set configuration ของโปรเจค จาก debug เป็น release 
+2. คลิกขวาที่โปรเจค และเลือก Archive 
+
 ![07-archive-for-publishing-sml](https://user-images.githubusercontent.com/85179/114748596-47bce780-9d7c-11eb-8436-a37b80af8bb6.png)
+
+3. จะเป็นการเปิด Archive Manager ขึ้นมา และมีการ build โปรเจคเพื่อสร้าง Archive
 
 ![08-archive-manager-sml](https://user-images.githubusercontent.com/85179/114748611-4986ab00-9d7c-11eb-8825-010f7ff93a53.png)
 
+สามารถเลือก **Archive All** ได้ ถ้าคลิกขวาที่ Solution
+
 ![09-archive-all-sml](https://user-images.githubusercontent.com/85179/114748626-4d1a3200-9d7c-11eb-96df-49e26fb971e1.png)
+
+เราสามารถเปิด Archive Manager ได้โดยตรงจากเมนู **Tools > Archive Manager**
 
 ![10-launch-archive-manager-sml](https://user-images.githubusercontent.com/85179/114748646-50adb900-9d7c-11eb-8ee2-8f61c0d934de.png)
 
+และสามารถดู Archives ที่สร้างไว้ก่อนหน้านี้ ได้จากการคลิกขวาที่ Solution และเลือก **View Archives**
+
 ![11-view-archives-sml](https://user-images.githubusercontent.com/85179/114748665-560b0380-9d7c-11eb-8f02-ffc3e9d76d94.png)
+
+4. เนื้อที่ใน Archive Manager จะมี 3 ส่วน
+
+   - ส่วนสีฟ้า คือ **Solution List** เพื่อจำแนก archive ที่แยกตาม solution ที่ใช้งาน
+   - ส่วนสีแดง คือ **Archive List** แสดง archive ทั้งหมดจาก solution ที่เลือก
+   - ส่วนสีเขียว คือ **Detail Panel** แสดงรายละเอียดของ archive ที่ถูกเลือก
 
 ![12-archive-manager-detail-sml](https://user-images.githubusercontent.com/85179/114748703-5e633e80-9d7c-11eb-8def-6ba06637ebb5.png)
 
+5. สามารถเลือก archive ที่ต้องการ และกดปุ่ม distibute เพื่อเริ่มดำเนินการสร้างไฟล์
+
 ![13-distribute-sml](https://user-images.githubusercontent.com/85179/114748749-69b66a00-9d7c-11eb-8aaa-7f2966aa43da.png)
+
+6. จะขึ้นหน้าจอให้เลือกประเภทการ distibute 
+
+   - แบบ Ad hoc จะเป็นการสร้างไฟล์ APK
+   - แบบ Google Play จะเป็นการสร้างไฟล์ AAB และอัพขึ้น Store
 
 ![14-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748763-6c18c400-9d7c-11eb-8e5b-7da4fd4d93a6.png)
 
@@ -45,6 +72,7 @@
 - การ sign แอพ จะทำโดยใช้ไฟล์ Certificate ซึ่งเราสามารถสร้างขึ้นเองได้
 
 หากต้องการสร้างไฟล์ สำหรับ Play Store ให้ทำตาม[ขั้นตอนการสร้างไฟล์สำหรับ Play Store (AAB)](build-aab.md)
+
 ![01-distribution-channel-sml](https://user-images.githubusercontent.com/85179/114748919-94a0be00-9d7c-11eb-9880-7ae702270680.png)
 
 ![02-ad-hoc-signing-identity-vs-sml](https://user-images.githubusercontent.com/85179/114748939-99657200-9d7c-11eb-966d-b19de6aa1ade.png)
