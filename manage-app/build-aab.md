@@ -13,10 +13,6 @@
 ## ขั้นตอนการอัพแอพขึ้น Play Store 
 
 1. สร้าง Application Project บน Google Play Console
-
-
-
-
 2. Distribute แอพแบบ Google Play
 3. เชื่อม Application Project เข้ากับ Visual Studio 
 4. Distribute แอพ
