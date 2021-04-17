@@ -1,5 +1,5 @@
 
-# ลากวาง สร้าง UI
+# การสร้าง User Interface ด้วย Design View
 
 - ลาก LinearLayout มาวางสร้างโครง
 - ลาก Text View (Large), Plain Text, และ Button มาวางใน Linear Layout
