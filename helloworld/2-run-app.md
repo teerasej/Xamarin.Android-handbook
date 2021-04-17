@@ -11,12 +11,20 @@
 
 เราสามารถเปิด Android Device Manager เพื่อจัดการ Emulator ได้ 
 
+<img width="591" alt="2021-04-17_14-26-15" src="https://user-images.githubusercontent.com/85179/115105566-00a44180-9f8a-11eb-84b0-835b72082e5e.png">
+
+
 
 ### รายละเอียดของ Android Device Manager 
+
 
 1. สามารถเลือกสร้าง Emulator ใหม่ได้จากปุ่ม **New**
 2. หากต้องการปรับแต่ง Emulator ให้เลือกจากรายการด้านล่าง และกด **Edit**
 3. สามารถรัน Emulator ที่ต้องการได้ จากการกดปุ่ม **Start**
+
+
+<img width="1009" alt="2021-04-17_14-26-53" src="https://user-images.githubusercontent.com/85179/115105569-0732b900-9f8a-11eb-9374-410b71b21c0d.png">
+
 
 ### Note 
 
@@ -28,4 +36,7 @@
 หากมีการรัน Emulator หรือเชื่อมต่ออุปกรณ์เข้ากับคอมพิวเตอร์ได้เรียบร้อย จะปรากฎชื่อขึ้นมาในรายการ Target 
 
 สามารถเลือกเป้าหมายในการทดสอบจากรายการ และกดปุ่มรันทดสอบได้เลย 
+
+<img width="583" alt="2021-04-17_14-32-50" src="https://user-images.githubusercontent.com/85179/115105574-0dc13080-9f8a-11eb-9c19-bd95fc4d725e.png">
+
 
