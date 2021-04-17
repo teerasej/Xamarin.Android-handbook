@@ -17,12 +17,14 @@
 
 ### รายละเอียดของ Android Device Manager 
 
-<img width="1009" alt="2021-04-17_14-26-53" src="https://user-images.githubusercontent.com/85179/115105569-0732b900-9f8a-11eb-9374-410b71b21c0d.png">
-
 
 1. สามารถเลือกสร้าง Emulator ใหม่ได้จากปุ่ม **New**
 2. หากต้องการปรับแต่ง Emulator ให้เลือกจากรายการด้านล่าง และกด **Edit**
 3. สามารถรัน Emulator ที่ต้องการได้ จากการกดปุ่ม **Start**
+
+
+<img width="1009" alt="2021-04-17_14-26-53" src="https://user-images.githubusercontent.com/85179/115105569-0732b900-9f8a-11eb-9374-410b71b21c0d.png">
+
 
 ### Note 
 
