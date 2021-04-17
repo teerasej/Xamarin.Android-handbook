@@ -1,5 +1,5 @@
 
-# Distribute แอพจากโปรเจคใน Visual Studio
+# วิธีการเพิ่ม Google Play Account เข้าใช้งานใน Visual Studio
 
 เริ่มต้นหลังจาก[ขั้นตอนการ Archive](../build-apk.md#1-การ-archive-โปรเจค) ให้กดเลือก Google Play
 

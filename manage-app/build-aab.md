@@ -13,6 +13,5 @@
 ## ขั้นตอนการอัพแอพขึ้น Play Store 
 
 1. [สร้าง Application Project บน Google Play Console](build-aab/create-credential-on-google-play-console.md)
-2. [Distribute แอพจากโปรเจคใน Visual Studio](build-aab/distribute-app-from-visual-studio.md)
-3. เชื่อม Application Project เข้ากับ Visual Studio 
-4. Distribute แอพ
+2. [วิธีการเพิ่ม Google Play Account เข้าใช้งานใน Visual Studio](build-aab/add-google-play-account-to-visual-studio.md)
+3. [Publish แอพ](build-aab/publish-app.md)
