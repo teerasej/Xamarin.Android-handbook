@@ -8,7 +8,7 @@
 
 buttonHello.Click += (sender, e) =>
 {
-    // เช็คว่าค่าใน EditText widget เป็นข้อความว่างหรือไม่
+    // เช็คว่าค่าใน EditText View เป็นข้อความว่างหรือไม่
     if(textName.Text == string.Empty)
     {
         // สร้างตัวแปร toast และแสดง

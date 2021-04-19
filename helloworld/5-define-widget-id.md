@@ -1,7 +1,7 @@
 
 # กำหนด id ให้ Control แต่ละตัว
 
-ในการควบคุมการทำงานของ User Interface หรือ Widget แต่ละตัว สามารถทำได้ผ่านการตั้งชื่อ id ก่อน 
+ในการควบคุมการทำงานของ User Interface หรือ View แต่ละตัว สามารถทำได้ผ่านการตั้งชื่อ id ก่อน 
 
 ```xml
 <!-- Resources/layout/activity_main.xml -->

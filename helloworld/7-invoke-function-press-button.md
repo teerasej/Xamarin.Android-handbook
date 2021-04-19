@@ -20,13 +20,13 @@ protected override void OnCreate(Bundle savedInstanceState)
     // สร้าง function สำหรับ Click event 
     buttonHello.Click += (sender, e) =>
     {
-        // ดึงค่าที่กรอกใน EditText widget มาแสดงใน TextView
+        // ดึงค่าที่กรอกใน EditText View มาแสดงใน TextView
         textResult.Text = "Hello, " + textName.Text;
     };
 }
 ```
 
-## เคลียร์ข้อความใน EditText widget เมื่อกรอกข้อความเสร็จแล้ว
+## เคลียร์ข้อความใน EditText View เมื่อกรอกข้อความเสร็จแล้ว
 
 ```cs
 // MainActivity.cs
