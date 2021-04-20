@@ -12,4 +12,4 @@
 
 ## Managed App
 
-- [Link](managed-app/README.md)
+- [Link](manage-app/README.md)
