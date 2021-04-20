@@ -9,3 +9,7 @@
 - [Hello World](helloworld/README.md)
 - [Calculator](calculator-app/README.md)
 - [Province Selector](province-selector/README.md)
+
+## Managed App
+
+- [Link](managed-app/README.md)
