@@ -16,6 +16,10 @@
 - [Province Selector](province-selector/README.md)
 - [Local Contact](local-contacts/README.md)
 
-## Managed App
+### Web API, SQLite 
 
-- [Link](manage-app/README.md)
+- [Offline Contact](offline-contact/README.md)
+
+## การจัดการแอพพลิเคชั่น และการ Publish
+
+- [Managed](manage-app/README.md)
