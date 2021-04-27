@@ -20,7 +20,9 @@
 
 - [Offline Contact](offline-contact/README.md)
 
+### Barcode Scanner
 
+- [Barcode Scanner](barcode-scanner/README.md)
 
 ## การจัดการแอพพลิเคชั่น และการ Publish
 
