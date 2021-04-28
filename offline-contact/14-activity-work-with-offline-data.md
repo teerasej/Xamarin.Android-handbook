@@ -2,6 +2,7 @@
 
 # สลับมาใช้การโหลดใช้ข้อมูลแบบ Offline แทน
 
+การทำส่วนนี้ให้รันได้อย่างสมบูรณ์ อาจต้องกำหนด Permission ชื่อ **READ_EXTERNAL_STORAGE** และ **WRITE_EXTERNAL_STORAGE** ใน Android Options (AndroidManifest.xml) ด้วย ขึ้นอยู่กับที่อยู่ และระบบการทำงานของ OS นั้นๆ
 
 ```cs
 // MainActivity.cs
@@ -105,3 +106,4 @@ namespace RandomUser
     }
 }
 ```
+
