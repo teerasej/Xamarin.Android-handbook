@@ -24,6 +24,10 @@
 
 - [Barcode Scanner](barcode-scanner/README.md)
 
+### Audio File
+
+- [Audio Player](audio-player/README.md)
+
 ## การจัดการแอพพลิเคชั่น และการ Publish
 
 - [Managed](manage-app/README.md)
