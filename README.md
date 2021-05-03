@@ -28,6 +28,10 @@
 
 - [Audio Player](audio-player/README.md)
 
+### Print
+
+- [Print on Printer](printer/README.md)
+
 ## การจัดการแอพพลิเคชั่น และการ Publish
 
 - [Managed](manage-app/README.md)
