@@ -1,5 +1,8 @@
 
+
 # Zebra Bluetooth Printer 
+
+ดาวน์โหลดไฟล์ตัวอย่าง: [Archive.zip](https://github.com/teerasej/Xamarin.Android-handbook/files/6425214/Archive.zip)
 
 1. [ติดตั้งโปรแกรมที่จำเป็น](1-setup-sdk.md)
 2. [สร้างโปรเจค, ติดตั้ง package และเปิด Permission](2-create-project.md)
