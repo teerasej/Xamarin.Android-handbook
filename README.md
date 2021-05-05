@@ -32,6 +32,10 @@
 
 - [Print on Printer](printer/README.md)
 
+### Multi-language
+
+- [Multi-language application](multilanguage/README.md)
+
 ## การจัดการแอพพลิเคชั่น และการ Publish
 
 - [Managed](manage-app/README.md)
