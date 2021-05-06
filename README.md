@@ -36,6 +36,10 @@
 
 - [Multi-language application](multilanguage/README.md)
 
+### Multi screen
+
+- [Multi screen strategy](multiscreen/README.md)
+
 ## การจัดการแอพพลิเคชั่น และการ Publish
 
 - [Managed](manage-app/README.md)
