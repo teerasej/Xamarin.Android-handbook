@@ -8,6 +8,7 @@
 ## Example
 
 - [Main Menu](responsive-example.md)
+- [Input Adjust](example-input-adjust.md)
 
 ## Notes
 
